@@ -1,2 +1,2 @@
 # vhdlchecker
-Let's Rusty Bootcamp Accelerator capstone project about VHDL helper tools
+Let's Get Rusty Accelerator Bootcamp Capstone project about VHDL helper tools
