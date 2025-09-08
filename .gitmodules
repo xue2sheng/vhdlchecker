@@ -1,0 +1,12 @@
+[submodule "libs/ai"]
+	path = libs/ai
+	url = git@github.com:xue2sheng/vhdlchecker-ai.git
+[submodule "libs/preprocess"]
+	path = libs/preprocess
+	url = git@github.com:xue2sheng/vhdlchecker-preprocess.git
+[submodule "libs/process"]
+	path = libs/process
+	url = git@github.com:xue2sheng/vhdlchecker-process.git
+[submodule "libs/cli"]
+	path = libs/cli
+	url = git@github.com:xue2sheng/vhdlchecker-cli.git
