@@ -1,6 +1,15 @@
-fn version() -> &'static str {
-    "cli x.x.x preprocess ".to_owned() + preprocess::version() + " process x.x.x ai x.x.x"
+use lazy_static::lazy_static;
+
+lazy_static! {
+    static ref VERSION: String = format!(
+        "version: 0.0.1 cli {} preprocess {} process {} ai {}",
+        cli::version(),
+        preprocess::version(),
+        process::version(),
+        ai::version()
+    );
 }
+
 fn main() {
-    println!("version: {}", version());
+    println!("{}", &*VERSION);
 }

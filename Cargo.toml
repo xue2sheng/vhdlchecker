@@ -1,7 +1,11 @@
 [package]
 name = "vhdlchecker"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
 
 [dependencies]
 preprocess = {  path = "libs/preprocess" }
+process = {  path = "libs/process" }
+cli = {  path = "libs/cli" }
+ai = {  path = "libs/ai" }
+lazy_static = "1.5.0"
